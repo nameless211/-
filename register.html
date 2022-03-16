@@ -2,373 +2,292 @@
 <html>
 <head>
     <meta charset="UTF-8">  
-    <title>xxx牙科医院在线挂号系统</title>  
+    <title>牙牙乐牙科医院在线挂号系统</title>  
     <link rel="stylesheet" href="./register.css">
+    <link rel="stylesheet" href="./bookstrap.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="./bootstrap-4.6.1-dist/js/bootstrap.js"></script>
 </head>
 
 <body>
     <div id = "page_header">
         <img src="./src/hospital_icon.png" alt = "$hospital_icon$" id = "hospital_icon"/>
         <p id="hospital_name">
-            <b>$医院名称$</b> 
+            <b>$牙牙乐牙科医院$</b> 
         </p>
     </div>
     <div id = "depart_wrapper">
         <p>
-            <b>内科系统
+            <a class="btn btn-outline-primary btn-lg my-2 my-sm-0" role="button">急诊科</a>
             <br/>
             <br/>
             <br/>
-            外科系统
+            <a class="btn btn-outline-primary btn-lg my-2 my-sm-0" role="button">正畸科</a>
             <br/>
             <br/>
             <br/>
-            妇儿
+            <a class="btn btn-outline-primary btn-lg my-2 my-sm-0" role="button">修复科</a>
             <br/>
             <br/>
             <br/>
-            五官科
+            <a class="btn btn-outline-primary btn-lg my-2 my-sm-0" role="button">颌面内科</a>
             <br/>
             <br/>
             <br/>
-            全科医学科
+            <a class="btn btn-outline-primary btn-lg my-2 my-sm-0" role="button">颌面外科</a>
             <br/>
             <br/>
             <br/>
-            康复医学科
+            <a class="btn btn-outline-primary btn-lg my-2 my-sm-0" role="button">预防保健科</a>
             <br/>
             <br/>
             <br/>
-            其他科室
-            <br/>
-            <br/>
-            <br/>
-            男科
             </b>
         </p>
     </div>
     <div id = "depart_detail">
-        <div class ="depart">内科系统</div>
+        <div class ="depart">急诊科</div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生1
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生2
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class ="depart">外科系统</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生3
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
+                挂号！
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div class ="depart">正畸科</div>
+        <div class="depart_select_1">
+            <p>
+                医生1
+                <br/>
+                <br/>
+                时间查询
+                <br/>
+                <br/>
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生2
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class ="depart">妇儿</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生3
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
+                挂号！
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div class ="depart">修复科</div>
+        <div class="depart_select_1">
+            <p>
+                医生1
+                <br/>
+                <br/>
+                时间查询
+                <br/>
+                <br/>
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生2
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class ="depart">五官科</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生3
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
+                挂号！
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div class ="depart">颌面内科</div>
+        <div class="depart_select_1">
+            <p>
+                医生1
+                <br/>
+                <br/>
+                时间查询
+                <br/>
+                <br/>
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生2
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class ="depart">全能医学科</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生3
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
+                挂号！
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div class ="depart">颌面外科</div>
+        <div class="depart_select_1">
+            <p>
+                医生1
+                <br/>
+                <br/>
+                时间查询
+                <br/>
+                <br/>
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生2
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class ="depart">康复医学科</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生3
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
+                挂号！
+                <br/>
+                <br/>
+            </p>
+        </div>
+        <div class ="depart">预防保健科</div>
+        <div class="depart_select_1">
+            <p>
+                医生1
+                <br/>
+                <br/>
+                时间查询
+                <br/>
+                <br/>
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生2
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class ="depart">其他科室</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
         <div class="depart_select_1">
             <p>
-                $depart_name$
+                医生3
                 <br/>
                 <br/>
-                $depart_name$
+                时间查询
                 <br/>
                 <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
+                挂号！
                 <br/>
                 <br/>
             </p>
         </div>
-        <div class ="depart">男科</div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-        <div class="depart_select_1">
-            <p>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-                $depart_name$
-                <br/>
-                <br/>
-            </p>
-        </div>
-    </div>
+        
 </body>
 
 </html>
